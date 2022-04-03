@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+
+<body>
+    <div class="content-conteiner-pedido">
+        <h1>Realizar pedido</h1>
+        <form action="">
+            <label>A nombre de: </label>
+            <br>
+            <input type="text" id="nombre" name="Nombre" placeholder="Nombre">
+
+            <br>
+
+            <label>Telefono: </label>
+            <br>
+            <input type="tel" id="telefono" name="telefono" placeholder="Numero de telefono">
+
+            <br>
+
+            <label>Correo electronico: </label>
+            <br>
+            <input type="email" id="correo" name="correo" placeholder="Correo electronico">
+
+            <br>
+
+            <label>Descripcion generel: </label>
+            <br>
+            <input type="text" id="descripcion" name="descripcion" placeholder="descripcion">
+
+            <br>
+            <label>Selecciona el sabor: </label>
+            <br>
+            <select name="adornos" id="adornos">
+            <option>Chicle</option>
+            <option>Menta</option>
+            <option>Chocolate</option>
+            <option>Vainilla</option>
+            <option>Manzana</option>
+            <option>Durazno</option>
+            <option>Fresa</option>
+            <option>Caramelo</option>
+            <option>Multisabor</option>
+        </select>
+
+            <br>
+
+            <label>Selecciona tipo de pastel</label>
+            <br>
+            <select name="tipos" id="tipos">
+            <option>Pastel Chocolate $15.00</option>
+            <option>Pastel Menta $15.00</option>
+            <option>Pastel Vainilla $15.00</option>
+            <option>Pastel Multisabor $15.00</option>
+            <option>Pastel Chicle $15.00</option>
+            <option>Pastel Caramelo $15.00</option>
+            <option>Pastel Manzana $15.00</option>
+            <option>Pastel Mango $15.00</option>
+        </select>
+
+            <br>
+
+            <label>Selecciona adornos</label>
+            <br>
+            <br>
+
+            <label><input type="checkbox" id="flores" name="flores" placeholder="Florales"> Florales</label>
+            <br>
+            <label> <input type="checkbox" id="frutales" name="frutales" placeholder="Frutales"> Frutales</label>
+            <br>
+            <label> <input type="checkbox" id="zigzag" name="zigzag" placeholder="Zig Zag"> Zig zag</label>
+            <br>
+            <label> <input type="checkbox" id="rainbow" name="rainbow" placeholder="Rainbow"> Rainbow</label>
+            <br>
+
+
+
+            <button>Realizar pedido</button>
+        </form>
+    </div>
+</body>
+
+</html>

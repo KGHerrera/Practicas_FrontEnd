@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+    </style>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+</head>
+
+<body>
+    <div class="content-conteiner">
+        <div class="pokedex">
+
+            <div class="up">
+                <div class="square"></div>
+                <h1>Pokedex Explorer</h1>
+            </div>
+
+            <div class="screen">
+                <img src="./pokeball.png" alt="Pokemon" id="pokeImg" class="img">
+            </div>
+
+            <input type="text" placeholder="pikachu" id="pokeName" name="pokeName">
+            <button onclick="fetchPokemon()">Buscar pokemon</button>
+        </div>
+        <div class="pokedex" style="border-radius: 0 20px 20px 0px;">
+            <div class="up">
+                <div class="square"></div>
+
+                <h1> PokeInfo </h1>
+
+            </div>
+
+            <div class="info">
+                <p>Nombre:
+                    <label id="nombre"></label>
+                </p>
+                <p>Tipo:
+                    <label id="tipo"></label>
+                </p>
+                <p>Estadisticas:
+                    <label id="estadisticas"></label>
+                </p>
+                <p>Movimientos:
+                    <label id="movimientos"></label>
+                </p>
+            </div>
+        </div>
+
+    </div>
+</body>
+<footer>
+    <script src='pokedex.js'></script>
+</footer>
+
+</html>
